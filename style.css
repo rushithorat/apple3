@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ru {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 25px;
+  }
+.class-swipper{
+    height: 60vh;
+    width: 100%;
+   
+}
+.card-head{
+    height: 15vh;
+    width: 100%;
+  display: flex;
+    margin-left: 5vw;
+
+}
+.card-head h1{
+    font-size: 2vw;
+    margin-top: 4vw;
+}
+.card-head h2{
+    font-size: 2vw;
+    margin-top: 4vw;
+    color: grey;
+}
+.card-swipper{
+    height: 35vh;
+     width: 95%;
+    margin-left: 2%;
+  
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;  */
+} 
+.ca{
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    padding-top: 2vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.ca i{
+    font-size: 3vw;
+    padding: 0 1vw;
+}
+.card1 i{
+     color: blue;
+}
+.card1 h1{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+    color: blue;
+}
+.card1 p{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+}
+.card2 i{
+    color:orange
+}
+.card2 h1{
+    font-size: 1.8vw;
+    padding: 1vw ;
+  
+color: orange;
+
+}
+.card3 i{
+    color: purple;
+}
+.card3 h1{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+
+}
+.card3 p{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+    color: purple;
+}
+.card4 i{
+    color: green;
+}
+
+.card4 h1{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+  color: green;
+}
+.card4 p{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+}
+.card5 i{
+    color: green;
+}
+.card5 h1{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+  color: green;
+}
+.card5 p{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+}
+.card6 i{
+    color: blue;
+}
+.card6 h1{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+  color: blue;
+}
+.card6 p{
+    font-size: 1.8vw;
+    margin-left:1vw ;
+}
+
+
+
+@media (min-width: 1px) and (max-width: 425px) {
+    .card-head{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card-head h1{
+        font-size: 3vh;
+    }
+    .card-head h2{
+        font-size: 2.9vh;
+    }
+    .ca i{
+        font-size: 9vh;
+    }
+    .ca h1{
+        font-size: 4vh;
+    }
+    .ca p{
+        font-size: 4vh;
+    }
+    
+}
